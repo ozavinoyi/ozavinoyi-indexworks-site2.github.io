@@ -1,0 +1,11 @@
+section.fit-message {
+    padding: 8rem;
+}
+
+header.show-case {
+    min-height: 300px;
+}
+
+svg {
+    min-height: 300px;
+}

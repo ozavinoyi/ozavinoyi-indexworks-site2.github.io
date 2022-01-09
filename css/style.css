@@ -1,0 +1,430 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grad-btn: linear-gradient(to right, #fdeade, #edafec);
+}
+
+body {
+    font-size: 1em;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.active {
+    text-decoration: underline;
+    color: lightseagreen !important;
+}
+.active-page {
+    font-weight: bolder;
+    color: seagreen !important;
+}
+
+/* HEADER STYLE */
+header.show-case {
+    position: relative;
+    box-shadow: 15px 0 15px #ccc;
+    padding: 1rem 0;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg {
+    width: 100%;
+    min-height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -4;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 40px;
+    height: 50px;
+}
+
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul.menu a.btn {
+    padding: 0.5rem 0.6rem;
+    background: green;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+ul li {
+    margin-right: 1rem;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.link-2 {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul.link-2 a {
+    color: #000;
+}
+
+
+
+
+
+/* END OF HEADER */
+
+/* SECTION FIT MESSAGE */
+section.fit-message {
+    margin-top: 40px;
+    background: seagreen;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 8rem 0;
+}
+
+section.fit-message h2 {
+    font-size: 3rem;
+}
+
+div.fit-btn {
+    color: #edafec;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+div.fit-btn a {
+    padding: 1rem;
+    background: linear-gradient(to right, rgb(2, 18, 48), rgb(1, 29, 13));
+    color: #fff;
+    border-radius: 6px;
+    border: 2px solid #000;
+    margin-right: 10px;
+}
+
+div.fit-btn a:hover {
+    background: linear-gradient(to left, red, purple);
+}
+
+/* END OF FIT MESSAGE */
+
+/* SECTION FIND GYM */
+section.find-gym {
+    font-family: sans-serif;
+    padding: 1rem 10rem;
+    background: #000;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: -55px;
+}
+
+section.find-gym img {
+    width: 15%;
+}
+
+div.find-gym-parent {
+    display: flex;
+    flex-direction: row;
+}
+
+div.find-gym-parent button {
+    width: 120px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+/* SECTION INTRODCING */
+section.intro {
+    margin-top: 50px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section.intro div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+section.intro div img, section.intro div p {
+    flex: 1;
+    margin: 1rem;
+}
+
+/* END OF INTRO */
+
+/* SECTION INTRODUCING */
+section.introducing {
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+    padding: 2rem 5rem;
+    font-family: sans-serif;
+}
+
+section.introducing h2 {
+    text-align: left;
+}
+
+section.introducing p {
+    margin-bottom: 20px;
+}
+
+section.introducing a {
+    color: aqua;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+/* END OF SECTION INTRODUCING */
+
+/* SECTION CERT */
+section.cert {
+    margin-top: 50px;
+    background: seagreen;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 3rem;
+}
+
+div.cert-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 4rem;
+    background: cornsilk;
+    color: #000;
+    box-shadow: 0 3px 8px #000, 0 -3px 8px #000;
+}
+
+div.cert-flex div h2 {
+    text-align: left;
+}
+
+div.cert-flex img {
+    width: 20%;
+    margin-right: 40px;
+}
+
+div.cert-flex p {
+    margin-bottom: 10px;
+}
+
+div.cert-flex a {
+    text-decoration: underline;
+    color: darkcyan;
+}
+/* END OF SECTION CERT */
+
+/* SECTION COMMENT */
+section.comment {
+    margin-top: 50px;
+}
+
+div.comment-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+div.comment-flex div {
+    padding: 2rem;
+}
+
+div.comment-flex div img {
+    width: 100%;
+}
+
+div.comment-flex div h4 {
+    margin: 0.5rem 0;
+}
+
+/* END OF COMMENT FLEX */
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    background: #000;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+
+footer div > a {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 20%;
+    padding: 0.5rem;
+    color: #fff;
+    margin: 0 auto;
+    background: rgb(6, 58, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+}
+
+footer div > a:hover {
+    background: rgb(7, 134, 81);
+}
+
+div.footer-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(6, 58, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.footer-contents h2 {
+    font-size: 1.2rem;
+}
+
+div.footer-contents a {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+div.right, div.designer {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* STYLE PAGE AND MEDIA PAGE */
+
+section.styles {
+    margin-top: 30px;
+    padding: 1rem;
+    background: lavender;
+}
+
+section.media {
+    margin-top: 30px;
+    padding: 1rem;
+}
+
+section.styles h1, section.media h1 {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 2rem;
+} 
+
+div.style-section, div.media-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: seagreen;
+    padding: 2rem;
+    color: #000;
+    font-family: sans-serif;
+    margin: 10px 0;
+    color: #fff;
+}
+
+div.media-section {
+    background: #fff;
+    color: #000;
+}
+
+div.style-section h3, div.media-section h3 {
+    font-size: 2rem;
+    color: khaki;
+}
+
+div.media-section h3 {
+    font-size: 2rem;
+    color: midnightblue;
+}
+
+div.style-section img, div.media-section img {
+    margin-right: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+div.fit-text {
+    padding: 1rem 0;
+}
+
+div.style, div.media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.style div:nth-child(2), div.media div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.style div:nth-child(2) a, div.media div:nth-child(2) a {
+    color: khaki;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+div.media div:nth-child(2) a {
+    color: midnightblue;
+}
+
+div.media div:nth-child(2) a {
+    color: midnightblue;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+/* STYLE PAGE AND MEDIA PAGE END */
+
+/* OFFER */
+section.fit-offer {
+    margin-top: 40px;
+}
+
+section.fit-offer div h3 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

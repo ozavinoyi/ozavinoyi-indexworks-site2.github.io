@@ -1,0 +1,56 @@
+
+
+.container {
+    max-width: 700px;
+}
+
+ul.menu li a, ul.link-2 li a, ul.menu a {
+    font-size: 0.8rem;
+}
+
+section.fit-message h2 {
+    font-size: 2rem;
+}
+
+section.fit-message, section.find-gym {
+    font-size: 0.9rem;
+}
+
+section.fit-message {
+    padding: 5rem;
+}
+
+section.find-gym {
+    width: 100%;
+    padding: 1rem 5rem;
+}
+
+section.intro div {
+    flex-direction: column;
+    padding: 1rem;
+}
+
+section.intro div img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+div.comment-flex div {
+    padding: 0.4rem;
+}
+
+footer div > a {
+    width: 80%;
+}
+
+div.footer-contents {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.footer-1, div.footer-2, div.footer-3, div.footer-4 {
+    flex-basis: 40%;
+    margin: 0.5rem auto;
+    padding-left: 2rem;
+}

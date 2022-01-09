@@ -1,0 +1,203 @@
+svg {
+    display: none;
+}
+
+header.show-case {
+    height: 350px;
+    padding: 1rem;
+    background: #005144;
+}
+
+nav img {
+    width: 15%;
+}
+
+ul li {
+    margin-right: 1.4rem;
+}
+
+ul.link-2 {
+    font-size: 0.9rem;
+}
+
+ul.link-2 li a {
+    color: #fff;
+}
+
+ul.menu {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    align-items: flex-start;
+}
+
+ul.menu div {
+    width: 25%;
+    margin: 0 auto;
+}
+
+ul.menu li, ul.menu li a {
+    margin: 0.5rem 0; 
+    color: #fff;
+    text-align: center;
+}
+
+section.fit-message {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    padding: 3rem;
+    width: 100%;
+}
+
+section.fit-message h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+section.fit-message a {
+    padding: 0.4rem;
+}
+
+section.find-gym {
+    padding: 2.5rem 3rem;
+    margin-top: 20px;
+    width: 100%;
+}
+
+div.find-gym-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.find-gym-parent p {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+div.find-gym-parent button {
+    margin: 0;
+}
+
+section.intro {
+    width: 100%;
+}
+
+section.intro div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.intro h2 {
+    background: #000;
+    margin: 0;
+    color: #eee;
+}
+section.intro div p {
+    margin: 10px 0;
+    padding: 1rem;
+}
+
+section.intro div img {
+    margin: 0;
+    margin-bottom : 5px;
+}
+
+section.introducing {
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: 1rem 0;
+}
+
+section.cert {
+    background: #fff;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+div.cert-flex {
+    padding: 1rem;
+    box-shadow: unset;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+section.comment {
+    width: 100%;
+}
+
+div.comment-flex {
+    flex-direction: column;
+}
+
+footer div > a {
+    width: 100%;
+}
+
+div.footer-contents {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.footer-1, div.footer-2, div.footer-3, div.footer-4 {
+    flex-basis: 40%;
+    margin: 0.5rem auto;
+    padding-left: 2rem;
+}
+
+div.footer-1 h2, div.footer-2 h2, div.footer-3 h2, div.footer-4 h2 {
+    text-align: center;
+}
+
+section.styles {
+    background: #fff;
+}
+
+section.styles div {
+    width: 100%;
+}
+
+div.style-section, div.media-section {
+    display: flex;
+    flex-direction: column;
+}
+
+div.style p {
+    width: 100%;
+}
+
+section.media div {
+    width: 100%;
+}
+
+div.style p {
+    width: 100%;
+}
+
+div.media-section img {
+    height: 400px;
+}
+
+.svg {
+    display: none;
+}
+
+div.svg-pos, div.svg-pos img, div.svg-pos div {
+    position: unset;
+    width: 100%;
+}
+
+div.svg-parent:nth-child(2), div.svg-parent:nth-child(4) {
+    margin: 0;
+}
+
+section.fit-offer div {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+section.fit-offer div p {
+    padding: 0 1rem;
+}
